@@ -1,0 +1,6 @@
+F:\YURKO\SHAG\Project C#\26_24102021_Lab_WPF(MVVM, Converter, API, десереалізація Json)\My_Classwork_Homework_MVVM\My_Classwork_Homework_MVVM\obj\Debug\My_Classwork_Homework_MVVM.csprojAssemblyReference.cache
+F:\YURKO\SHAG\Project C#\26_24102021_Lab_WPF(MVVM, Converter, API, десереалізація Json)\My_Classwork_Homework_MVVM\My_Classwork_Homework_MVVM\obj\Debug\MainWindow.g.cs
+F:\YURKO\SHAG\Project C#\26_24102021_Lab_WPF(MVVM, Converter, API, десереалізація Json)\My_Classwork_Homework_MVVM\My_Classwork_Homework_MVVM\obj\Debug\App.g.cs
+F:\YURKO\SHAG\Project C#\26_24102021_Lab_WPF(MVVM, Converter, API, десереалізація Json)\My_Classwork_Homework_MVVM\My_Classwork_Homework_MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\YURKO\SHAG\Project C#\26_24102021_Lab_WPF(MVVM, Converter, API, десереалізація Json)\My_Classwork_Homework_MVVM\My_Classwork_Homework_MVVM\obj\Debug\My_Classwork_Homework_MVVM_MarkupCompile.cache
+F:\YURKO\SHAG\Project C#\26_24102021_Lab_WPF(MVVM, Converter, API, десереалізація Json)\My_Classwork_Homework_MVVM\My_Classwork_Homework_MVVM\obj\Debug\My_Classwork_Homework_MVVM_MarkupCompile.lref
