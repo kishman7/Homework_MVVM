@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace My_Classwork_Homework_MVVM.ViewModel
 {
-    class WeatherVM : INotifyPropertyChanged  //зв’язка ViewModel
+    public class WeatherVM : INotifyPropertyChanged  //зв’язка ViewModel
     {
         public ObservableCollection<City> Cities { get; set; } = new ObservableCollection<City>(); // колекція, яка вже відображає зміни в списку
 
@@ -63,7 +63,7 @@ namespace My_Classwork_Homework_MVVM.ViewModel
         {
             if (SelectedCity != null)
             {
-                CurrentConditions = await WeatherHelper.GetCurrentConditionsAsync(SelectedCity.Key);
+                CurrentConditions = await WheatherHelper.GetCurrentConditionsAsync(SelectedCity.Key);
             }
             else
             {
@@ -80,7 +80,7 @@ namespace My_Classwork_Homework_MVVM.ViewModel
 
         public async Task MakeRequestCitiesAsync() // мнтод, який буде заповнювати колекцію ObservableCollection<City> Cities
         {
-            var cities = await WhetherHelper.GetCitiesAsync(Query);
+            var cities = await WheatherHelper.GetCitiesAsync(Query);
             Cities.Clear();
 
             foreach (var item in cities)

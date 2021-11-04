@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace My_Classwork_Homework_MVVM.ViewModel.Helper
 {
-    public static class WhetherHelper
+    public static class WheatherHelper
     {
         // API - application programming interface
         private const string BASE_URL = "http://dataservice.accuweather.com/";
@@ -32,7 +32,7 @@ namespace My_Classwork_Homework_MVVM.ViewModel.Helper
             return cities;
         }
 
-        public static async Task<CurrentConditions> GetCurrentConditionsAsync(string locationKey) // поветає показники погоди в конкретному місці
+        public static async Task<CurrentConditions> GetCurrentConditionsAsync(string locationKey) // повертає показники погоди в конкретному місці
         {
             var currentConditionsList = new List<CurrentConditions>();
 

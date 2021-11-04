@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace My_Classwork_Homework_MVVM.Models
 {
-    public class City
-    {
+   
 
-        public class Rootobject
+        public class City
         {
             public int Version { get; set; }
             public string Key { get; set; }
@@ -25,5 +24,4 @@ namespace My_Classwork_Homework_MVVM.Models
             public string ID { get; set; }
             public string LocalizedName { get; set; }
         }
-    }
 }

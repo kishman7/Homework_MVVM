@@ -20,14 +20,12 @@ namespace My_Classwork_Homework_MVVM.ViewModel.Command
                 CommandManager.RequerySuggested -= value;
             }
         } 
-
         WeatherVM VM { get; set; }
-
         public SearchCommand(WeatherVM vm)
+
         {
             VM = vm;
         }
-
         public bool CanExecute(object parameter) // bool значення, чи дозволяє чи не дозволяє виконувати метод Execute
         {
             return !string.IsNullOrWhiteSpace(parameter as string);
